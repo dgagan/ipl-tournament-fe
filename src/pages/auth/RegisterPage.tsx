@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, Container, Typography } from '@mui/material'
+import { Card, CardContent, Container } from '@mui/material'
 import RegisterForm from './components/RegisterForm'
 import FormHeader from './components/FormHeader'
 import FormFooter from './components/FormFooter'

@@ -1,9 +1,8 @@
 import { zodResolver } from '@hookform/resolvers/zod'
-import { Button, Container, Divider, FormControl, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material'
+import { Button, Container, FormControl, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material'
 import { Controller, useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { useRegister } from '../../../api/auth.api'
-import type { school } from '../../../types'
 import { labels } from '../constants'
 import type { GetAllSchoolsResponse } from '../../../api/schools.api'
 

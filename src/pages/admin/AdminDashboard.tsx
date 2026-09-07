@@ -1,6 +1,6 @@
 
 import { Avatar, InputAdornment, TextField, Typography, TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody, Box, Container, Button } from '@mui/material'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import { useTeams } from '../../api/teams.api';
 import type { TeamWithPlayersResponse } from '../../api/teams.api';
